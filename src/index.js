@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom/client';  // Import from 'react-dom/client' in React 18
+import './styles.css';  // Global styles
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
