@@ -11123,7 +11123,7 @@ body {
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   min-height: 100vh; /* Makes the section take up full viewport height */
-  filter: brightness(0.99); /* Reduces the brightness of the background image */
+  filter: brightness(0.89); /* Reduces the brightness of the background image */
 }
 
 .about-section::before {

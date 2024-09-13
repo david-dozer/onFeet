@@ -62,7 +62,7 @@ const Navbar = () => {
             <span className="nav-link" onClick={handleAboutClick} style={{ cursor: 'pointer' }}>ABOUT</span>  {/* Add cursor: pointer */}
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/try-me">TRY ME!</Link>
+              <Link className="nav-link" to="/try-me">EXPLORE</Link>
             </li>
           </ul>
         </div>
