@@ -5,7 +5,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import TryMe from './components/TryMe';
+import Sneaker from './components/Sneaker';  // Import Sneaker Component
 import './styles.css';
+
+const productData = [/* Pass product data array here */];
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
           </>
         } />
         <Route path="/try-me" element={<TryMe />} />
+        <Route path="/sneaker/:id" element={<Sneaker productData={productData} />} />  {/* Sneaker Page */}
       </Routes>
     </Router>
   );

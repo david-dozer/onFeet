@@ -8250,6 +8250,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-60 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11233,6 +11238,109 @@ body {
 
 /* DAVID MENDOZA ADDITIONAL ONFEET CSS STYLING */
 /* styles.css */
+
+/* Search Bar */
+.search-bar {
+  width: 70%;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 20px 0;
+}
+
+/* Dropdown for Search Results */
+.dropdown {
+  background-color: #343a40;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 70%;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #6c757d;
+  color: white;
+  cursor: pointer;
+}
+
+.search-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-brand {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* View All Results Button */
+.view-all {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #64a19d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Grid for showing all products */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-grid .search-item {
+  width: 150px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-grid .search-item img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Sneaker Page Image */
+.sneaker-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sneaker-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* body {
   font-family: Arial, sans-serif;

@@ -7,7 +7,7 @@ const Header = () => {
         <div className="d-flex justify-content-center">
           <div className="text-center">
             <h1 className="mx-auto my-0 text-uppercase">onFeet.</h1>
-            <h2 className="text-white-50 mx-auto mt-2 mb-5">
+            <h2 className="text-white-60 mx-auto mt-2 mb-5">
               Giving you a better perspective on sneaker shopping.
             </h2>
           </div>
