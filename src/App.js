@@ -27,6 +27,7 @@ function App() {
         <Route path="/try-me" element={<TryMe />} />
         <Route path="/sneaker/:id" element={<Sneaker productData={productData} />} />  {/* Sneaker Page */}
       </Routes>
+      <Footer />
     </Router>
   );
 }
